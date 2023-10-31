@@ -7,14 +7,13 @@ key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 key_jump = keyboard_check(vk_up);
 
+
 // Calculate the movement
 var _move = key_right - key_left;
 
+// calculate horizontal speed
 hsp = _move * walksp;
 
+// change x by the horizontal speed
 x = x + hsp;
-
-
-
-
 
