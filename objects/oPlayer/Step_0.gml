@@ -51,3 +51,30 @@ if ( place_meeting(x, y+vsp, oWall) )
 }
 
 y = y + vsp;
+
+// Animation States
+// Are Not on a platform? We are jumping or falling
+if (!place_meeting(x, y+1, oWall))
+{
+	sprite_index = sPlayerJump;
+	image_speed = 0;
+	// jumping or falling?
+	if (vsp > 0) image_index = 1; else image_index = 0;
+}
+else
+{
+	image_speed = 1;
+	// Are we standing still or moving (left or right)?
+	if (hsp == 0)
+	{
+		// we are not moving left or right (we are idle)
+		sprite_index = sPlayerIdle;
+	}
+	else
+	{
+		sprite_index = sPlayerWalk;
+	}
+}
+
+// Flip our sprite to the left (-1) or right (1) using x-scale
+if (hsp != 0) image_xscale = sign(hsp);

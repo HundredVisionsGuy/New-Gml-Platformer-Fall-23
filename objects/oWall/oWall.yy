@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oWall",
   "spriteId": {
-    "name": "sWall",
-    "path": "sprites/sWall/sWall.yy",
+    "name": "sInvisibleDoor",
+    "path": "sprites/sInvisibleDoor/sInvisibleDoor.yy",
   },
   "solid": false,
   "visible": true,
