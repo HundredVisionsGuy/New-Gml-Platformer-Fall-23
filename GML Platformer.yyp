@@ -4,10 +4,15 @@
   "name": "GML Platformer",
   "resources": [
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
+    {"id":{"name":"rmRoom2","path":"rooms/rmRoom2/rmRoom2.yy",},"order":1,},
+    {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"order":2,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
+    {"id":{"name":"sInvisibleDoor","path":"sprites/sInvisibleDoor/sInvisibleDoor.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
-    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},"order":4,},
+    {"id":{"name":"sPlayerWalk","path":"sprites/sPlayerWalk/sPlayerWalk.yy",},"order":3,},
+    {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":0,},
+    {"id":{"name":"rmMain","path":"rooms/rmMain/rmMain.yy",},"order":0,},
   ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
@@ -26,7 +31,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rmMain","path":"rooms/rmMain/rmMain.yy",},},
+    {"roomId":{"name":"rmRoom2","path":"rooms/rmRoom2/rmRoom2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
