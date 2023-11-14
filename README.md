@@ -1,7 +1,14 @@
-# GML-Platformer-Starter-Kit
+# Wild Wild West
 
-A GML Starter kit for the **Platformer Tutorial (GML) - Parts 1 & 2**  
+Description of your game goal here.
 
+## Features: 
+* Animated IDLE state
+* Animated walk cycle when walking on a platform
+* Animated jump cycle when jumping or falling
+
+## Tutorial Links:
+For those who want to try out the video themselves.
 * [Platformer Tutorial (GML) - Par 1](https://youtu.be/2z4981CxFkw)
 * [Platformer Tutorial (GML) - Par 2](https://youtu.be/CUFm5DZm-A8)
 
@@ -12,6 +19,6 @@ A GML Starter kit for the **Platformer Tutorial (GML) - Parts 1 & 2**
 * All I have provided are the assets from the tutorial and the preferences for GML code (not visual).
 * My goal is to provide a template that a student can clone to follow along with Shaun and practice using Source Control Management along the way.
 
-## Credits
+## Credits:
 The assets and video tutorials were created by [Shaun Spalding](https://www.youtube.com/c/ShaunSpalding).
 Check out Shaun's amazing collections of videos.
