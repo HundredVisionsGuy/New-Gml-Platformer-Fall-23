@@ -3,7 +3,9 @@
   "resourceVersion": "1.6",
   "name": "GML Platformer",
   "resources": [
+    {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},"order":5,},
     {"id":{"name":"sCoffeeCup","path":"sprites/sCoffeeCup/sCoffeeCup.yy",},"order":5,},
+    {"id":{"name":"oBarrier","path":"objects/oBarrier/oBarrier.yy",},"order":6,},
     {"id":{"name":"oCoffeeCup","path":"objects/oCoffeeCup/oCoffeeCup.yy",},"order":3,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"rmRoom2","path":"rooms/rmRoom2/rmRoom2.yy",},"order":1,},
@@ -11,9 +13,12 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sInvisibleDoor","path":"sprites/sInvisibleDoor/sInvisibleDoor.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"sEggSpider","path":"sprites/sEggSpider/sEggSpider.yy",},"order":6,},
     {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},"order":4,},
     {"id":{"name":"sPlayerWalk","path":"sprites/sPlayerWalk/sPlayerWalk.yy",},"order":3,},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":0,},
+    {"id":{"name":"sInvisibleBarrier","path":"sprites/sInvisibleBarrier/sInvisibleBarrier.yy",},"order":7,},
+    {"id":{"name":"oEggSpider","path":"objects/oEggSpider/oEggSpider.yy",},"order":4,},
     {"id":{"name":"rmMain","path":"rooms/rmMain/rmMain.yy",},"order":0,},
   ],
   "Options": [
