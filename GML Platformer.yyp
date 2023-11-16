@@ -3,6 +3,8 @@
   "resourceVersion": "1.6",
   "name": "GML Platformer",
   "resources": [
+    {"id":{"name":"sCoffeeCup","path":"sprites/sCoffeeCup/sCoffeeCup.yy",},"order":5,},
+    {"id":{"name":"oCoffeeCup","path":"objects/oCoffeeCup/oCoffeeCup.yy",},"order":3,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"rmRoom2","path":"rooms/rmRoom2/rmRoom2.yy",},"order":1,},
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"order":2,},
