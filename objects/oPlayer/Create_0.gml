@@ -7,9 +7,8 @@ walksp = 4;
 jumpsp = 9;
 
 // wall jump variables
-wall_direction = 0;
-wall_jump_force = 12;
-wall_jumping = false;
+jump_max = 2;
+jump_current = jump_max;
 
 
 

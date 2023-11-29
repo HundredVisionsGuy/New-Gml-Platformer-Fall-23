@@ -3,3 +3,4 @@
 
 // Return speed to normal
 walksp = 4;
+jumpsp = 9;

@@ -17,17 +17,6 @@ hsp = _move * walksp;
 // Apply gravity
 vsp = vsp + grv;
 
-// Jump Mechanic - you can only jump from a platform
-if (place_meeting(x, y+1, oWall) && key_jump)
-{
-	vsp = -jumpsp;
-}
-/*if (check_collision(-1, 0))
-{
-        wall_direction = -1;
-        alarm[1] = 10;
-}
-*/
 // Horizontal collision - are we colliding with a wall to the left or right?
 if ( place_meeting(x+hsp, y, oWall) ) 
 {
@@ -52,7 +41,29 @@ if ( place_meeting(x, y+vsp, oWall) )
 		y = y + sign(vsp);
 	}
 	vsp = 0;
+	
+	jump_current = jump_max;
+	if (key_jump)
+	{
+		if (jump_current > 0) {
+			vsp = -jumpsp;
+			jump_current -= 1;
+		}
+	}
 }
+else
+{
+	// double jump
+	if (keyboard_check_pressed(vk_up))
+	{
+		if (jump_current > 0)
+		{
+			vsp = -(jumpsp * 0.80);
+			jump_current -= 1;	
+		}
+	}
+}
+
 
 y = y + vsp;
 
