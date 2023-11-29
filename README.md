@@ -7,6 +7,7 @@ Description of your game goal here.
 * Animated walk cycle when walking on a platform
 * Animated jump cycle when jumping or falling
 * Patrolling Egg Spider enemy
+* trailing flare when moving
 
 ## Tutorial Links:
 For those who want to try out the video themselves.

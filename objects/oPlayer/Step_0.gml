@@ -22,8 +22,12 @@ if (place_meeting(x, y+1, oWall) && key_jump)
 {
 	vsp = -jumpsp;
 }
-
-
+/*if (check_collision(-1, 0))
+{
+        wall_direction = -1;
+        alarm[1] = 10;
+}
+*/
 // Horizontal collision - are we colliding with a wall to the left or right?
 if ( place_meeting(x+hsp, y, oWall) ) 
 {
@@ -78,3 +82,8 @@ else
 
 // Flip our sprite to the left (-1) or right (1) using x-scale
 if (hsp != 0) image_xscale = sign(hsp);
+
+// Particle effect attempt #1
+if (sign(hsp) != 0 or sign(vsp) != 0) { 
+	effect_create_below(ef_flare, x, (y+30), 2, c_red);	
+}
