@@ -47,6 +47,9 @@ if ( place_meeting(x, y+vsp, oWall) )
 	{
 		if (jump_current > 0) {
 			vsp = -jumpsp;
+			
+			// play jumpsound
+			audio_play_sound(jumppp22,0,false);
 			jump_current -= 1;
 		}
 	}
@@ -59,6 +62,9 @@ else
 		if (jump_current > 0)
 		{
 			vsp = -(jumpsp * 0.80);
+			
+			// play jumpsound
+			audio_play_sound(jumppp22,0,false);
 			jump_current -= 1;	
 		}
 	}

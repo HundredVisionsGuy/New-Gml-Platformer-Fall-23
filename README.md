@@ -8,6 +8,7 @@ Description of your game goal here.
 * Animated jump cycle when jumping or falling
 * Patrolling Egg Spider enemy
 * trailing flare when moving
+* Adding jump sound and music loop
 
 ## Tutorial Links:
 For those who want to try out the video themselves.
@@ -22,5 +23,6 @@ For those who want to try out the video themselves.
 * My goal is to provide a template that a student can clone to follow along with Shaun and practice using Source Control Management along the way.
 
 ## Credits:
-The assets and video tutorials were created by [Shaun Spalding](https://www.youtube.com/c/ShaunSpalding).
-Check out Shaun's amazing collections of videos.
+* The assets and video tutorials were created by [Shaun Spalding](https://www.youtube.com/c/ShaunSpalding). Check out Shaun's amazing collections of videos.
+* Jumppp11.ogg and Jumppp22.ogg sounds by [IgnasD](https://opengameart.org/content/jumping-man-sounds)
+* Happy Adventure (Loop) by [TinyWorlds](https://opengameart.org/content/happy-adventure-loop)
